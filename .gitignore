@@ -25,6 +25,7 @@ ipch
 *.suo
 *.VC.db
 *.VC.VC.opendb
+*.vcxproj*
 
 ## Commonly used CMake directories
 /build*/
@@ -51,3 +52,7 @@ examples/example_glut_opengl2/example_glut_opengl2
 examples/example_null/example_null
 examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
+
+# Engine specific ignores
+bin
+bin-int
